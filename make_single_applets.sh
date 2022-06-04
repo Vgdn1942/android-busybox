@@ -5,6 +5,7 @@
 # The script will try to rebuild each enabled applet in isolation.
 # All other options which chose general bbox config, applet features, etc,
 # are not modified for the builds.
+# e.g. run ./make_single_applets.sh UNZIP for build unzip applet
 
 makeopts="-j9"
 
